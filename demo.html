@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- css  -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/respo.css">
+	<link rel="stylesheet" href="./css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./css/aos.css">
+
+	<!-- Importing the hamburger menu icon from remix icon CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+	<!-- fontawesome cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<title>Blooger</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<!-- navbar -->
+		<!-- <div class="container"> -->
+		<nav class="navbar">
+			<span href="#" class="logo">
+				Blooger
+			</span>
+			<!-- The order that we place the checkbox and label here is important because we will use css only for the click event to open the menu on mobile. -->
+			<input type="checkbox" id="toggler">
+			<label for="toggler"><i class="ri-menu-line"></i></label>
+			<div class="menu ms-auto">
+				<ul class="list">
+					<li><a href="#banner">Home</a></li>
+					<li><a href="#cards">Cards</a></li>
+					<li><a href="#post">Category</a></li>
+					<li><a href="#post">Pages</a></li>
+					<li><a href="#footer">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="menu icon ms-auto">
+				<ul class="list">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-youtube-play"></i>
+
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!-- navbar-end -->
+
+	<!-- banner -->
+	<section id="banner">
+		<header>
+			<div class="banner-container" data-aos-delay="100">
+				<h3>Tours & Travels</h3>
+				<h1>Amazing Place on Earth</h1>
+				<button class="btn">Explore</button>
+			</div>
+		</header>
+	</section>
+	<!-- banner-end -->
+
+	<!-- cards -->
+	<section id="cards">
+		<header id="cards" class="my-5">
+
+			<div class="container">
+				<div class="slider">
+					<div class="owl-carousel">
+						<div class="slider-card">
+							<div class="d-flex justify-content-center align-items-center mb-4">
+								<img src="./assets/Blog-post/post-1.jpg" alt="">
+							</div>
+							<h5 class="mb-0 text-center"><b>HTML CSS3 Tutorials</b></h5>
+							<p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+								temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+						</div>
+						<div class="slider-card">
+							<div class="d-flex justify-content-center align-items-center mb-4">
+								<img src="./assets/Blog-post/post-2.jpg" alt="">
+							</div>
+							<h5 class="mb-0 text-center"><b>Wordpress Tutorials</b></h5>
+							<p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+								temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+						</div>
+						<div class="slider-card">
+							<div class="d-flex justify-content-center align-items-center mb-4">
+								<img src="./assets/Blog-post/post-3.jpg" alt="">
+							</div>
+							<h5 class="mb-0 text-center"><b>PHP MySQL Tutorials</b></h5>
+							<p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+								temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+						</div>
+						<div class="slider-card">
+							<div class="d-flex justify-content-center align-items-center mb-4">
+								<img src="./assets/Blog-post/post-4.png" alt="">
+							</div>
+							<h5 class="mb-0 text-center"><b>Javascript Tutorials</b></h5>
+							<p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+								temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+						</div>
+						<div class="slider-card">
+							<div class="d-flex justify-content-center align-items-center mb-4">
+								<img src="./assets/Blog-post/post-5.png" alt="">
+							</div>
+							<h5 class="mb-0 text-center"><b>Bootstrap Tutorials</b></h5>
+							<p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+								temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+	</section>
+	<!-- cards-end -->
+
+	<!-- grid-container -->
+	<section id="post">
+		<div class="container py-5">
+			<div class="site-content">
+				<div class="row">
+					<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+
+						<!-- Blog-post-1  -->
+						<div class="left-container">
+							<div class="post" data-aos="zoom-in" data-aos-delay="200">
+								<div class="post-img">
+									<img src="./assets/Blog-post/blog1.png" alt=""
+										class="img-fluid mx-auto d-block card-img">
+								</div>
+
+								<div class="sky-div">
+									<span>
+										<i class="fa fa-user"></i> Admin
+									</span>
+									<span>
+										<i class="fa fa-calendar"></i> January 28, 2022
+									</span>
+									<span>
+										12 comments
+									</span>
+								</div>
+								<div class="post-contain">
+									<h1>
+										Why should boys have all the fun? it's the women who are making india an
+										alcohol-loving
+										contry
+									</h1>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt
+										beatae
+										adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam
+										tenetur
+										a
+										nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus
+										magni
+										illum
+										similique veniam tempore unde?
+									</p>
+									<button class="btn">Read More
+										<i class="fa fa-arrow-right"></i>
+									</button>
+								</div>
+							</div>
+							<hr>
+						</div>
+
+
+						<!-- Blog-post-2  -->
+						<div class="left-container">
+							<div class="post" data-aos="zoom-in" data-aos-delay="200">
+								<div class="post-img">
+									<img src="./assets/Blog-post/blog2.png" alt=""
+										class="img-fluid mx-auto d-block card-img">
+								</div>
+
+								<div class="sky-div">
+									<span>
+										<i class="fa fa-user"></i> Admin
+									</span>
+									<span>
+										<i class="fa fa-calendar"></i> January 28, 2022
+									</span>
+									<span>
+										12 comments
+									</span>
+								</div>
+								<div class="post-contain">
+									<h1>
+										Why should boys have all the fun? it's the women who are making india an
+										alcohol-loving
+										contry
+									</h1>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt
+										beatae
+										adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam
+										tenetur
+										a
+										nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus
+										magni
+										illum
+										similique veniam tempore unde?
+									</p>
+									<button class="btn">Read More
+										<i class="fa fa-arrow-right"></i>
+									</button>
+								</div>
+							</div>
+							<hr>
+						</div>
+
+						<!-- Blog-post-3  -->
+						<div class="left-container">
+							<div class="post" data-aos="zoom-in" data-aos-delay="200">
+								<div class="post-img">
+									<img src="./assets/Blog-post/blog3.png" alt=""
+										class="img-fluid mx-auto d-block card-img">
+								</div>
+
+								<div class="sky-div">
+									<span>
+										<i class="fa fa-user"></i> Admin
+									</span>
+									<span>
+										<i class="fa fa-calendar"></i> January 28, 2022
+									</span>
+									<span>
+										12 comments
+									</span>
+								</div>
+								<div class="post-contain">
+									<h1>
+										Why should boys have all the fun? it's the women who are making india an
+										alcohol-loving
+										contry
+									</h1>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt
+										beatae
+										adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam
+										tenetur
+										a
+										nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus
+										magni
+										illum
+										similique veniam tempore unde?
+									</p>
+									<button class="btn">Read More
+										<i class="fa fa-arrow-right"></i>
+									</button>
+								</div>
+							</div>
+							<hr>
+						</div>
+
+						<!-- Blog-post-4  -->
+						<div class="left-container">
+							<div class="post" data-aos="zoom-in" data-aos-delay="200">
+								<div class="post-img">
+									<img src="./assets/Blog-post/blog4.png" alt=""
+										class="img-fluid mx-auto d-block card-img">
+								</div>
+
+								<div class="sky-div">
+									<span>
+										<i class="fa fa-user"></i> Admin
+									</span>
+									<span>
+										<i class="fa fa-calendar"></i> January 28, 2022
+									</span>
+									<span>
+										12 comments
+									</span>
+								</div>
+								<div class="post-contain">
+									<h1>
+										Why should boys have all the fun? it's the women who are making india an
+										alcohol-loving
+										contry
+									</h1>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt
+										beatae
+										adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam
+										tenetur
+										a
+										nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus
+										magni
+										illum
+										similique veniam tempore unde?
+									</p>
+									<button class="btn">Read More
+										<i class="fa fa-arrow-right"></i>
+									</button>
+								</div>
+							</div>
+							<hr>
+						</div>
+
+					</div>
+
+					<div class="col-xl-4 col-lg-4 col-md-4 sidebar-hide">
+						<aside class="sidebar">
+							<h1>Category</h1>
+							<div class="sidebar-blue-div" data-aos="fade-left" data-aos-delay="100">
+								Software
+								<span>(05)</span>
+							</div>
+							<div class="sidebar-blue-div" data-aos="fade-left" data-aos-delay="100">
+								Technology
+								<span>(02)</span>
+							</div>
+							<div class="sidebar-blue-div" data-aos="fade-left" data-aos-delay="100">
+								Lifestyle
+								<span>(07)</span>
+							</div>
+							<div class="sidebar-blue-div" data-aos="fade-left" data-aos-delay="100">
+								Shopping
+								<span>(01)</span>
+							</div>
+							<div class="sidebar-blue-div" data-aos="fade-left" data-aos-delay="100">
+								Food
+								<span>(08)</span>
+							</div>
+						</aside>
+
+						<div class="Popular-post">
+							<h2>Popular Post</h2>
+							<!-- pp-1  -->
+							<div class="p-post" data-aos="flip-up" data-aos-delay="200">
+								<img src="./assets/popular-post/m-blog-1.jpg" alt="" class="mx-auto img-fluid d-block">
+								<div class="white-div">
+									<span>
+										<i class="fa fa-calendar"></i>
+										January 15,2022
+									</span> &nbsp; &nbsp;
+									<span>
+										2 Comments
+									</span>
+
+								</div>
+								<h4>
+									New data recording system to better analyse road accidents
+								</h4>
+							</div>
+
+							<!-- pp-2  -->
+							<div class="p-post" data-aos="flip-up" data-aos-delay="200">
+								<img src="./assets/popular-post/m-blog-2.jpg" alt="" class="mx-auto img-fluid d-block">
+								<div class="white-div">
+									<span>
+										<i class="fa fa-calendar"></i>
+										January 15,2022
+									</span> &nbsp; &nbsp;
+									<span>
+										2 Comments
+									</span>
+
+								</div>
+								<h4>
+									New data recording system to better analyse road accidents
+								</h4>
+							</div>
+
+							<!-- pp-3  -->
+							<div class="p-post" data-aos="flip-up" data-aos-delay="200">
+								<img src="./assets/popular-post/m-blog-3.jpg" alt="" class="mx-auto img-fluid d-block">
+								<div class="white-div">
+									<span>
+										<i class="fa fa-calendar"></i>
+										January 15,2022
+									</span> &nbsp; &nbsp;
+									<span>
+										2 Comments
+									</span>
+
+								</div>
+								<h4>
+									New data recording system to better analyse road accidents
+								</h4>
+							</div>
+
+							<!-- pp-4  -->
+							<div class="p-post" data-aos="flip-up" data-aos-delay="200">
+								<img src="./assets/popular-post/m-blog-4.jpg" alt="" class="mx-auto img-fluid d-block">
+								<div class="white-div">
+									<span>
+										<i class="fa fa-calendar"></i>
+										January 15,2022
+									</span> &nbsp; &nbsp;
+									<span>
+										2 Comments
+									</span>
+
+								</div>
+								<h4>
+									New data recording system to better analyse road accidents
+								</h4>
+							</div>
+
+							<!-- pp-5  -->
+							<div class="p-post" data-aos="flip-up" data-aos-delay="200">
+								<img src="./assets/popular-post/m-blog-5.jpg" alt="" class="mx-auto img-fluid d-block">
+								<div class="white-div">
+									<span>
+										<i class="fa fa-calendar"></i>
+										January 15,2022
+									</span> &nbsp; &nbsp;
+									<span>
+										2 Comments
+									</span>
+
+								</div>
+								<h4>
+									New data recording system to better analyse road accidents
+								</h4>
+							</div>
+
+						</div>
+
+						<div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+							<h2>Newsletter</h2>
+							<div class="email">
+								<input type="email" placeholder="Email"> <br>
+								<button class="btn">Subscribe</button>
+							</div>
+						</div>
+
+						<div class="popular-tags">
+							<h2>
+								Popular Tags
+							</h2>
+							<div class="button-tags">
+								<button class="btn" data-aos="flip-up" data-aos-delay="100">Software</button>
+								<button class="btn" data-aos="flip-up" data-aos-delay="200">Technology</button>
+								<button class="btn" data-aos="flip-up" data-aos-delay="300">Travel</button>
+								<button class="btn" data-aos="flip-up" data-aos-delay="400">illustration</button>
+								<button class="btn" data-aos="flip-up" data-aos-delay="500">Design</button>
+								<button class="btn" data-aos="flip-up" data-aos-delay="600">lifestyle</button>
+								<button class="btn" data-aos="flip-up" data-aos-delay="700">love</button>
+								<button class="btn" data-aos="flip-up" data-aos-delay="800">project</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- grid-container-end -->
+
+	<!-- footer -->
+	<section id="footer">
+		<div class="footer-container pt-5">
+			<div class="container">
+
+				<div class="row" data-aos="fade-in" data-aos-delay="200">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 footer-contain">
+						<h2>About us</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab dignissimos eos,
+							necessitatibus
+						</p>
+					</div>
+
+
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 footer-contain">
+						<h2>Newsletter</h2>
+						<p>Stay update with our latest</p>
+						<input type="text" placeholder="Email">
+						<button type="submit">
+							<i class="fa fa-chevron-right"></i>
+						</button>
+					</div>
+
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 footer-contain">
+						<h2>Instagram</h2>
+						<div class="row">
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 insta">
+								<img src="./assets/instagram/thumb-card3.png" alt="" class="img-fluid mx-auto d-block">
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 insta">
+								<img src="./assets/instagram/thumb-card4.png" alt="" class="img-fluid mx-auto d-block">
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 insta">
+								<img src="./assets/instagram/thumb-card5.png" alt="" class="img-fluid mx-auto d-block">
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 insta">
+								<img src="./assets/instagram/thumb-card6.png" alt="" class="img-fluid mx-auto d-block">
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 insta">
+								<img src="./assets/instagram/thumb-card7.png" alt="" class="img-fluid mx-auto d-block">
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 insta">
+								<img src="./assets/instagram/thumb-card8.png" alt="" class="img-fluid mx-auto d-block">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 footer-contain">
+						<h2>Follow us</h2>
+						<p>Lets us be social</p>
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-instagram"></i>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-youtube-play"></i>
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="copyright py-3">
+				<div class="container">
+					<p>
+						copyright &copy; 2022. All right reserved | made by <span> @mgt</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer-end -->
+
+	<!-- scroll down button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">
+		<i class="fa fa-chevron-circle-up"></i>
+	</button>
+	<!-- scroll down button-end -->
+
+
+	<!-- script -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+	<script src="./js/owl.carousel.min.js"></script>
+	<script src="./js/script.js"></script>
+	<script src="./js/aos.js"></script>
+	<script src="./js/main.js"></script>
+
+
+	<!-- script-end -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+@media (max-width: 1280px) {
+    header{
+        height: 70vh;
+    }
+    #cards{
+        height: auto;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    #cards {
+        height: auto;
+    }
+
+    #cards span {
+        font-size: 1.2em;
+    }
+
+    .sky-div {
+        margin: 0 7%;
+    }
+    .newsletter{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        height: 50vh;
+    }
+
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .navbar label {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #toggler:checked~.menu {
+        max-height: 100%;
+    }
+
+    #cards {
+        height: auto;
+    }
+    .post-contain h1{
+        font-size: 2em;
+        padding-top: 50px;
+    }
+
+    .sky-div {
+        margin: 0 1%;
+    }
+
+    .sidebar h1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .sidebar-blue-div {
+        margin-left: 0;
+    }
+
+    .Popular-post h2 {
+        font-size: 1.5em;
+    }
+
+    .p-post {
+        margin: 50px 0;
+        padding-left: 0;
+    }
+
+    .email {
+        padding-left: 0;
+    }
+
+    .button-tags{
+        padding-left: 0;
+    }
+    .p-post h4,
+    .newsletter h2,
+    .popular-tags h2 {
+        font-size: 1.2em;
+    }
+
+    .newsletter {
+        margin-top: 0;
+    }
+
+    .popular-tags .btn {
+        padding: 0.375rem 0.75rem;
+    }
+
+    .footer-contain p {
+        font-size: 1rem;
+    }
+
+    .footer-contain input {
+        width: 68%;
+    }
+
+    .insta img {
+        margin-bottom: 10px;
+    }
+
+    .footer-contain .fa {
+        padding-left: 10px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    #cards {
+        height: auto;
+    }
+    .post-contain h1{
+        padding-top: 0px;
+    }
+    .site-content {
+        grid-template-columns: 100%;
+    }
+
+    .sky-div {
+        position: relative;
+        transform: none;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+
+    .sky-div span {
+        font-size: 1em;
+    }
+
+    .footer-container {
+        text-align: center;
+    }
+    .sidebar-hide {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    #cards {
+        height: auto;
+    }
+    .post-contain h1{
+        padding-top: 0px;
+    }
+    .site-content {
+        grid-template-columns: 100%;
+    }
+
+    .sky-div {
+        position: relative;
+        transform: none;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+
+    .sky-div span {
+        font-size: 1em;
+    }
+
+    .footer-contain {
+        padding-bottom: 20px;
+    }
+
+    .sidebar-hide {
+        display: none;
+    }
+
+    .footer-container {
+        text-align: center;
+    }
+}
